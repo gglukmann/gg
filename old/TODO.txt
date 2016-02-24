@@ -1,0 +1,2 @@
+-- print vaade, mis prindib välja visiitkaardi kujulise vaate
+http://bootsnipp.com/snippets/featured/user-profile-thumbnails-bs-3
