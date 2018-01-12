@@ -1,198 +1,192 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Official page of Gert Glükmann</title>
-		<meta name="description" content="Hi, my name is Gert. I'm an front-end / system developer living in Tallinn, Estonia. I enjoy programming websites and web systems.">
-		<meta name="author" content="Gert Glükmann">
+<!doctype html>
+<html class="no-js" lang="en">
+    <?php include('includes/_head.php'); ?>
+    <body>
+        <?php include('includes/_header.php'); ?>
 
-		<link rel="shortcut icon" href="img/gg.ico">
-		<link rel="apple-touch-icon" href="img/gg.ico">
+        <div class="about-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h2>About me</h2>
+                        <h3>UI / UX design & website dev</h3>
+                        <p>
+                            Hi, my name is <strong>Gert</strong>. I'm an front-end / system developer living in Tallinn, Estonia.
+                            I enjoy programming websites and web systems.
+                            Besides coding, I like running (<a href="//fortis.planet.ee/edetabel/profile/profile.php?id=1" target="_blank">fast</a>) and listening to good music.
+                            Are You in need of a new webpage, design, remake or need advice? Send me an <a href="#contact" class="goto">email</a>.
+                        </p>
+                        <a class="btn btn-default goto" href="#gallery">Look at my work</a>
+                    </div>
+                    <div class="col-sm-4 hidden-xs">
+                        <figure>
+                            <img src="assets/img/dp.jpg" alt="Me" class="img-responsive">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-		<meta name="twitter:card" content="summary">
-		<meta name="twitter:site" content="@glukmann">
-		<meta name="twitter:creator" content="@glukmann">
+        <div class="quote-section text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>&ldquo;If you are not striving for the gold then you need to pick something else to do.&rdquo;
+                        <small>- David Oliver</small></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-		<meta property="og:image" content="//fortis.planet.ee/gg/img/gg.jpg"/>
-		<meta property="og:title" content="Official page of Gert Glükmann"/>
-		<meta property="og:site_name" content="Official page of Gert Glükmann"/>
-		<meta property="og:type" content="profile:glukmann"/>
-		<meta property="og:description" content="Hi, my name is Gert. I'm an front-end / system developer living in Tallinn, Estonia. I enjoy programming websites and web systems."/>
+        <div class="work-section" id="gallery">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>My Work</h2>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="gallery" id="links">
+                        <div class="col-sm-4">
+                            <a href="assets/img/gallery/cc.png" title="Coin Collector">
+                                <figure>
+                                    <img src="assets/img/gallery/thumbs/cc.jpg" alt="Coin Collector" class="img-responsive">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="assets/img/gallery/virve.png" title="Virve - Registering and Management System">
+                                <figure>
+                                    <img src="assets/img/gallery/thumbs/virve.jpg" alt="Virve - Registering and Management System" class="img-responsive">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="assets/img/gallery/trennipaevik3.png" title="Training Diary">
+                                <figure>
+                                    <img src="assets/img/gallery/thumbs/trennipaevik3.jpg" alt="Training Diary" class="img-responsive">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="assets/img/gallery/tahed.png" title="SK Fortis Spordiaasta Tähed">
+                                <figure>
+                                    <img src="assets/img/gallery/thumbs/tahed.jpg" alt="SK Fortis Spordiaasta Tähed" class="img-responsive">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="assets/img/gallery/edetabel.png" title="SK Fortis Results and Rankings Page">
+                                <figure>
+                                    <img src="assets/img/gallery/thumbs/edetabel.jpg" alt="SK Fortis Results and Rankings Page" class="img-responsive">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="assets/img/gallery/johvikakodu.png" title="Jõhvikakodu.ee">
+                                <figure>
+                                    <img src="assets/img/gallery/thumbs/johvikakodu.jpg" alt="Jõhvikakodu.ee" class="img-responsive">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="assets/img/gallery/haaletus2.png" title="SK Fortis Spordiaasta Tähed Voting">
+                                <figure>
+                                    <img src="assets/img/gallery/thumbs/haaletus2.jpg" alt="SK Fortis Spordiaasta Tähed Voting" class="img-responsive">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="assets/img/gallery/registreerimine2.png" title="Registering to an Event">
+                                <figure>
+                                    <img src="assets/img/gallery/thumbs/registreerimine2.jpg" alt="Registering to an Event" class="img-responsive">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="assets/img/gallery/tumblr.png" title="Tumblr Theme">
+                                <figure>
+                                    <img src="assets/img/gallery/thumbs/tumblr.jpg" alt="Tumblr Theme" class="img-responsive">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="assets/img/gallery/blog.png" title="Travelblog">
+                                <figure>
+                                    <img src="assets/img/gallery/thumbs/blog.jpg" alt="Travelblog" class="img-responsive">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="assets/img/gallery/liis.png" title="Hairdressers Blog">
+                                <figure>
+                                    <img src="assets/img/gallery/thumbs/liis.jpg" alt="Hairdressers Blog" class="img-responsive">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="assets/img/gallery/merevagi.jpg" title="Countdown Page">
+                                <figure>
+                                    <img src="assets/img/gallery/thumbs/merevagi.jpg" alt="Countdown Page" class="img-responsive">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="assets/img/gallery/bestserv.png" title="Bestserv Homepage">
+                                <figure>
+                                    <img src="assets/img/gallery/thumbs/bestserv.jpg" alt="Bestserv Homepage" class="img-responsive">
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-		<link rel="stylesheet" type="text/css" href="css/webflow.css">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
-		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="css/lightbox.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>
-	<body>
-		<!--[if lt IE 7]>
-				<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-		<![endif]-->
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        <div class="contact-section text-center" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>Contact me <a href="mailto:gglukmann@gmail.com">gglukmann@gmail.com</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-			ga('create', 'UA-49597949-1', 'planet.ee');
-			ga('send', 'pageview');
+        <div id="blueimp-gallery" class="blueimp-gallery">
+            <div class="slides"></div>
+            <h3 class="title"></h3>
+            <a class="prev">‹</a>
+            <a class="next">›</a>
+            <a class="close">×</a>
+            <a class="play-pause"></a>
+            <ol class="indicator"></ol>
+        </div>
 
-		</script>
-	<div class="section header" id="page-nav-top">
-		<div class="w-row header">
-			<div class="w-col w-col-3 logo-bar">
-				<a class="w-inline-block logolink" href="#page-nav-top" target="_self">
-					<img class="company-logo" src="img/gg.jpg" width="50" alt="Logo">
-				</a>
-			</div>
-			<div class="w-col w-col-9 nav-bar">
-				<a class="nav-links goto" href="#about-me">About me</a>
-				<a class="nav-links goto" href="#gallery">Work I've done</a>
-				<a class="nav-links goto" href="#find-me">Find me</a>
-				<a class="button" href="mailto:gglukmann@gmail.com">Send email</a>
-			</div>
-		</div>
-		<div class="container hero-text">
-			<h1>&ldquo;If you are not striving for the <span class="gold">gold</span> then you need to pick something else to do.&rdquo;
-				<br>
-				David Oliver</h1>
-		</div>
-	</div>
-	<div class="section" id="about-me">
-		<div class="container service-columns">
-			<div class="quote">
-				<div class="mask">
-					<img src="img/dp.jpg" alt="profile picture" class="img-responsive">
-				</div>
-				Hi, my name is <strong>Gert</strong>. I'm an front-end / system developer living in Tallinn, Estonia.
-				<br>I enjoy programming websites and web systems. 
-				<br>Besides coding, I like running (fast) and listening to good music.
-				<br>You in need of a new webpage, design or remake?
-				<a class="goto" href="#gallery">Look at my work</a> or
-				<a class="goto" href="#find-me">contact me now!</a></div>
-		</div>
-	</div>
-	<div class="section dark" id="gallery">
-		<div class="container">
-			<h3 class="center-title">Work I've done</h3>
-		</div>
-		<div class="container gallery">
-			<div class="row">
-				<div class="w-col w-col-3 w-col-small-6">
-					<a class="w-inline-block portfolio" data-lightbox="portfolio" href="img/gallery/bestserv.png" title="bestserv.ee old homepage">
-						<img class="gallery-img" src="img/gallery/thumbs/bestserv.png" alt="webpage for bestserv">
-					</a>
-				</div>
-				<div class="w-col w-col-3 w-col-small-6">
-					<a class="w-inline-block portfolio" data-lightbox="portfolio" href="img/gallery/edetabel.png" title="SK Fortis results and rankings page">
-						<img class="gallery-img" src="img/gallery/thumbs/edetabel.png" alt="rankings page">
-					</a>
-				</div>
-				<div class="w-col w-col-3 w-col-small-6">
-					<a class="w-inline-block portfolio" data-lightbox="portfolio" href="img/gallery/fysio_admin_modal.png" title="Registering and clients administration system">
-						<img class="gallery-img" src="img/gallery/thumbs/fysio_admin_modal.png" alt="fysio">
-					</a>
-				</div>
-				<div class="w-col w-col-3 w-col-small-6">
-					<a class="w-inline-block portfolio" data-lightbox="portfolio" href="img/gallery/haaletus2.png" title="SK Fortis fans favourite voting system">
-						<img class="gallery-img" src="img/gallery/thumbs/haaletus2.png" alt="voting system">
-					</a>
-				</div>
-				<div class="clearfix"></div>
-				<div class="second-row">
-					<div class="w-col w-col-3 w-col-small-6">
-						<a class="w-inline-block portfolio-more" href="img/gallery/blog.png" title="Trip blog">
-							<img class="gallery-img" src="img/gallery/thumbs/blog.png" alt="Trip blog">
-						</a>
-					</div>
-					<div class="w-col w-col-3 w-col-small-6">
-						<a class="w-inline-block portfolio-more" href="img/gallery/liis.png" title="Hairdresser blog">
-							<img class="gallery-img" src="img/gallery/thumbs/liis.png" alt="Hairdresser blog">
-						</a>
-					</div>
-					<div class="w-col w-col-3 w-col-small-6">
-						<a class="w-inline-block portfolio-more" href="img/gallery/registreerimine2.png" title="Registering for an event system">
-							<img class="gallery-img" src="img/gallery/thumbs/registreerimine2.png" alt="fysio">
-						</a>
-					</div>
-					<div class="w-col w-col-3 w-col-small-6">
-						<a class="w-inline-block portfolio-more" href="img/gallery/trennipaevik.png" title="Training diary">
-							<img class="gallery-img" src="img/gallery/thumbs/trennipaevik.png" alt="training diary">
-						</a>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-				<div class="button-group">
-					<a href="#" class="button view-more">View more</a>
-					<a href="#" class="button view-less">View less</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="container" id="find-me">
-		<h3 class="center-title-find-me">Find me</h3>
-	</div>
-	<div class="section map">
-		<div class="container social-container text-center">
-			<a class="w-inline-block" href="//facebook.com/glukmann" target="_blank">
-				<i class="fa fa-2x fa-facebook social"></i>
-			</a>
-			<a class="w-inline-block" href="//plus.google.com/+GertGl%C3%BCkmann" target="_blank">
-				<i class="fa fa-2x fa-google-plus social"></i>
-			</a>
-			<a class="w-inline-block" href="//twitter.com/glukmann" target="_blank">
-				<i class="fa fa-2x fa-twitter social"></i>
-			</a>
-			<a class="w-inline-block" href="//instagram.com/glukmann" target="_blank">
-				<i class="fa fa-2x fa-instagram social"></i>
-			</a>
-			<a class="w-inline-block" href="//www.linkedin.com/in/gglukmann" target="_blank">
-				<i class="fa fa-2x fa-linkedin social"></i>
-			</a>
-		</div>
-	</div>
-	<div class="container">
-		<h3 class="center-title-contact">Contact me</h3>
-	</div>
-	<div class="section map">
-		<div class="container social-container text-center">
-			<a class="w-inline-block" href="mailto:gglukmann@gmail.com">
-				<i class="fa fa-2x fa-envelope social"></i>
-			</a>
-			<script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
-			<div id="SkypeButton_Call_gert121_1" class="w-inline-block social">
-				<script type="text/javascript">
-					Skype.ui({
-						"name": "chat",
-						"element": "SkypeButton_Call_gert121_1",
-						"participants": ["gert121"],
-						"imageSize": 24
-					});
-				</script>
-			</div>
-		</div>
-	</div>
-	<footer class="footer">
-		<div class="container">
-			<div class="footer-logo">
-				<img class="footlogo" src="img/gg.png" width="47" alt="gg.png">
-			</div>
-			<div class="footer-text">
-				&copy; <?php echo date('Y'); ?> GG. All rights reserved.
-				<div><a class="up" href="#">Back to top <i class="fa fa-arrow-up"></i></a></div>
-			</div>
-		</div>
-	</footer>
-	<script src="js/jquery-1.11.0.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/lightbox.min.js"></script>
-	<script src="js/functions.js"></script>
-</body>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/blueimp-gallery.min.js"></script>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/app.js"></script>
+
+        <script>
+            document.getElementById('links').onclick = function (event) {
+                event = event || window.event;
+                var target = event.target || event.srcElement,
+                link = target.src ? target.parentNode : target,
+                options = {index: link, event: event},
+                links = this.getElementsByTagName('a');
+                blueimp.Gallery(links, options);
+            };
+        </script>
+
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-49597949-1','auto');ga('send','pageview');
+        </script>
+    </body>
 </html>
