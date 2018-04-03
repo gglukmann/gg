@@ -5,6 +5,14 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hey ✋, my name is Gert</title>
+    <meta name="Description" content="Hey, my name is Gert Glükmann and I am a web developer and frontend engineer">
+    <link rel="canonical" href="https://fortis.planet.ee/gg"/>
+
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#D31027">
+
+    <link rel="shortcut icon" href="apple-touch-icon.png" sizes="any" />
+    <link rel="apple-touch-icon" sizes="96x96" href="apple-touch-icon.png">
 
     <meta property="og:url" content="https://fortis.planet.ee/gg" />
     <meta property="og:type" content="website" />
@@ -50,7 +58,7 @@
 
     @media (min-width: 800px) {
         body {
-            background-image: url(assets/images/me.jpg);
+            background-image: url(images/me.jpg);
             background-size: cover;
             background-position: bottom right;
             background-repeat: no-repeat;
@@ -83,10 +91,10 @@
     }
 
     .animate--second {
-        animation-delay: 800ms;
+        animation-delay: 400ms;
     }
     .animate--third {
-        animation-delay: 1600ms;
+        animation-delay: 800ms;
     }
 
     @keyframes slide {
@@ -266,6 +274,15 @@
         margin-top: 1em;
     }
     </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49597949-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49597949-1');
+    </script>
 </head>
 <body>
     <div class="🦍">
@@ -278,33 +295,33 @@
         </div>
         <div class="animate animate--third">
             <p class="🐈 hidden-print">
-                I work in Tallinn, Estonia at <a href="https://netgroup.ee/" class="🐙" target="_blank">Net Group</a>.
-                My latest personal projects have been a website for euro coin collectors at <a href="https://coincollector.eu" class="🐙 🐳" target="_blank">Coin Collector</a>,
-                a unofficial Chrome and Firefox new tab extension for <a href="http://gglukmann.github.io/pocket/" class="🐙 🐕" target="_blank">Pocket</a> users
-                and a clients registration and user management system for <a href="http://fysioterapeut.ee/registreerimine/" class="🐙 🐟" target="_blank">füsioterapeut.ee</a>.
+                I work in Tallinn, Estonia at <a href="https://netgroup.ee/" class="🐙" target="_blank" rel="noopener">Net Group</a>.
+                My latest personal projects have been a website for euro coin collectors at <a href="https://coincollector.eu" class="🐙 🐳" target="_blank" rel="noopener">Coin Collector</a>,
+                a unofficial Chrome and Firefox new tab extension for <a href="http://gglukmann.github.io/pocket/" class="🐙 🐕" target="_blank" rel="noopener">Pocket</a> users
+                and a clients registration and user management system for <a href="http://fysioterapeut.ee/registreerimine/" class="🐙 🐟" target="_blank" rel="noopener">füsioterapeut.ee</a>.
             </p>
             <p class="🐈 hidden-print">
-                <a href="http://ux.netgroupdigital.com/" class="🐏" title="My Portfolio at Net Group" target="_blank">
+                <a href="http://ux.netgroupdigital.com/" class="🐏" title="My Portfolio at Net Group" target="_blank" rel="noopener">
                     My Work at Net Group
                 </a>
-                <a href="https://github.com/gglukmann" class="🐏" title="My Github" target="_blank">
+                <a href="https://github.com/gglukmann" class="🐏" title="My Github" target="_blank" rel="noopener">
                     My Github
                 </a>
-                <a href="https://www.linkedin.com/in/gglukmann/" class="🐏" title="My Resume" target="_blank">
+                <a href="https://www.linkedin.com/in/gglukmann/" class="🐏" title="My Resume" target="_blank" rel="noopener">
                     My LinkedIn
                 </a>
             </p>
             <p class="🐈 hidden-print">
                 Contact me with
-                <a href="mailto:gglukmann@gmail.com?subject=Hey,%20let&#39s%20be%20friends" class="🦕">email</a>
+                <a href="mailto:gglukmann@gmail.com?subject=Hey,%20let&#39s%20be%20friends" class="🦕" title="gglukmann@gmail.com">email</a>
                 or in twitter
-                <a href="https://twitter.com/glukmann" class="🦕" target="_blank">@glukmann</a>.
+                <a href="https://twitter.com/glukmann" class="🦕" target="_blank" rel="noopener" title="@glukmann">@glukmann</a>.
             </p>
             <p class="🐈 visible-print">
                 My email: gglukmann@gmail.com
             </p>
             <p class="🐈 hidden-print">
-                <a href="https://drive.google.com/open?id=1tB1g0vGcMphYWr7ONWAuuduua8QE8UNo137An715iLo" class="🦀" target="_blank" title="My Resume">
+                <a href="https://drive.google.com/open?id=1tB1g0vGcMphYWr7ONWAuuduua8QE8UNo137An715iLo" class="🦀" target="_blank" rel="noopener" title="My Resume">
                     <svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" class="🐡 🦑">
                         <g transform="translate(0.000000,96.000000) scale(0.100000,-0.100000)" stroke="none">
                             <path d="M223 751 c-145 -66 -165 -385 -32 -505 64 -58 141 -60 205 -3 49 43 73 95 80 177 l7 70 -92 0 -91 0 0 -35 0 -35 50 0 c50 0 50 0 44 -27 -9 -38 -42 -91 -64 -103 -46 -25 -94 -2 -126 60 -13 26 -18 59 -18 130 -1 147 35 220 109 220 39 0 69 -21 85 -60 11 -27 17 -30 56 -30 l43 0 -11 33 c-18 52 -48 88 -92 108 -52 24 -100 24 -153 0z"/>
@@ -317,14 +334,10 @@
     </div>
     <div class="🐠 hidden-print"></div>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49597949-1"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-49597949-1');
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        }
     </script>
 </body>
 </html>

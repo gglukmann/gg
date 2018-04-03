@@ -1,0 +1,26 @@
+{
+    "short_name": "GG",
+    "name": "Gert Glükmann",
+    "icons": [
+        {
+            "src": "images/launcher-icon-2x.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "images/launcher-icon-4x.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "images/launcher-icon-8x.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "index.html?launcher=true",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#D31027",
+    "theme_color": "#D31027"
+}
