@@ -22,8 +22,10 @@
     <meta property="og:image:alt" content="This is me" />
 
     <style media="screen">
-    * {
-        box-sizing: border-box;
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
     }
 
     html {
@@ -32,6 +34,7 @@
         line-height: 1.4;
         -ms-text-size-adjust: 100%;
         -webkit-text-size-adjust: 100%;
+        box-sizing: border-box;
     }
 
     @media (min-width: 800px) {
@@ -70,15 +73,15 @@
     }
 
     .🦍 {
-        padding: 40px 10px;
+        padding: 2.5rem .625rem;
         width: 100%;
     }
 
     @media (min-width: 800px) {
         .🦍 {
-            padding-left: 30px;
-            padding-right: 30px;
-            max-width: 650px;
+            padding-left: 1.875rem;
+            padding-right: 1.875rem;
+            max-width: 44.5rem;
         }
     }
 
@@ -148,15 +151,20 @@
 
     .🐙 {
         text-decoration: none;
-        background: #b41e50;
-        padding: 2px 6px;
+        background: #000;
+        padding: .125rem .375rem;
         color: rgba(255, 255, 255, .9);
         font-weight: bold;
         letter-spacing: -1px;
+        white-space: nowrap;
     }
 
     .🐙:hover {
         color: #fff;
+    }
+
+    .🐤 {
+        background: #b41e50;
     }
 
     .🐳 {
@@ -176,8 +184,8 @@
         background: #111;
         color: #fff;
         text-decoration: none;
-        padding: 10px 30px;
-        margin: 3px;
+        padding: .625rem 1.875rem;
+        margin: .1875rem;
         border-radius: 99em;
         font-size: .825em;
         font-weight: bold;
@@ -291,19 +299,18 @@
             <h1>Gert Glükmann</h1>
         </div>
         <div class="animate animate--second">
-            <h2>I am a web developer and <br>frontend engineer</h2>
+            <h2>I am a web developer and <br>frontend consultant</h2>
         </div>
         <div class="animate animate--third">
             <p class="🐈 hidden-print">
-                I work in Tallinn, Estonia at <a href="https://netgroup.ee/" class="🐙" target="_blank" rel="noopener">Net Group</a>.
+                I work in Tallinn, Estonia at <a href="https://ringit.ee/" class="🐙" target="_blank" rel="noopener">RINGiT</a>.
+                Formerly worked at <a href="https://netgroup.ee" class="🐙 🐤" target="_blank" rel="noopener">Net Group</a>.
+                <br />
                 My latest personal projects have been a website for euro coin collectors at <a href="https://coincollector.eu" class="🐙 🐳" target="_blank" rel="noopener">Coin Collector</a>,
                 a unofficial Chrome and Firefox new tab extension for <a href="http://gglukmann.github.io/pocket/" class="🐙 🐕" target="_blank" rel="noopener">Pocket</a> users
                 and a clients registration and user management system for <a href="http://fysioterapeut.ee/registreerimine/" class="🐙 🐟" target="_blank" rel="noopener">füsioterapeut.ee</a>.
             </p>
             <p class="🐈 hidden-print">
-                <a href="http://ux.netgroupdigital.com/" class="🐏" title="My Work at Net Group" target="_blank" rel="noopener">
-                    Me at Net Group
-                </a>
                 <a href="https://github.com/gglukmann" class="🐏" title="My Github" target="_blank" rel="noopener">
                     My Github
                 </a>
@@ -312,6 +319,9 @@
                 </a>
                 <a href="https://stackshare.io/glukmann/gg-stack" class="🐏" title="My Development Stack" target="_blank" rel="noopener">
                     My Stack
+                </a>
+                <a href="http://ux.netgroupdigital.com/" class="🐏" title="My Work at Net Group" target="_blank" rel="noopener">
+                    Me at Net Group
                 </a>
             </p>
             <p class="🐈 hidden-print">
