@@ -5,7 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hey ✋, my name is Gert</title>
-    <meta name="Description" content="Hey, my name is Gert Glükmann and I am a web developer and frontend engineer">
+    <meta name="Description" content="Hey, my name is Gert Glükmann and I am a web developer and front-end consultant">
     <link rel="canonical" href="https://fortis.planet.ee/gg"/>
 
     <link rel="manifest" href="manifest.json">
@@ -17,7 +17,7 @@
     <meta property="og:url" content="https://fortis.planet.ee/gg" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Hey ✋, my name is Gert" />
-    <meta property="og:description" content="I am a web developer and frontend engineer. This is my personal page." />
+    <meta property="og:description" content="I am a web developer and front-end consultant. This is my personal page." />
     <meta property="og:image" content="https://fortis.planet.ee/gg/assets/images/me.jpg" />
     <meta property="og:image:alt" content="This is me" />
 
@@ -239,6 +239,21 @@
     }
     </style>
     <style media="print">
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+
+    html {
+        font-family: sans-serif;
+        font-size: 16px;
+        line-height: 1.4;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+        box-sizing: border-box;
+    }
+
     body {
         display: block;
         color: #000;
@@ -259,6 +274,7 @@
         padding: 10px;
         width: 85mm;
         height: 55mm;
+        border: 1px solid;
     }
 
     h1 {
@@ -305,7 +321,7 @@
             <h1>Gert Glükmann</h1>
         </div>
         <div class="animate animate--second">
-            <h2>I am a web developer and <br>frontend consultant</h2>
+            <h2>I am a web developer and <br>front-end consultant</h2>
         </div>
         <div class="animate animate--third">
             <p class="🐈 hidden-print">
